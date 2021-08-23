@@ -35,7 +35,7 @@ public class Stack<T> implements Stacks<T> {
 		T value = stack[TOP];
 		stack[TOP--] = null;
 
-		if (CAPACITY / 4 > TOP) {
+		if (CAPACITY / 4 > TOP && TOP > MAXCAPACITY) {
 			reSize(CAPACITY / 2);
 		}
 
