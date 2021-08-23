@@ -63,7 +63,7 @@ public class ShortestPath {
 		}
 	}
 	
-	public void breathFirstSearch(Integer startNode)
+	public void shortestPath(Integer startNode)
 	{
 		Queue<Integer> queue = new Queue<Integer>();
 		boolean[] visited =  new boolean[graph.size()];
@@ -106,7 +106,7 @@ public class ShortestPath {
 		
 	}
 
-	public void breathFirstSearch(Integer startNode, int dest)
+	public void shortestPath(Integer startNode, int dest)
 	{
 		Queue<Integer> queue = new Queue<Integer>();
 		boolean[] visited =  new boolean[graph.size()];

@@ -16,8 +16,8 @@ public class Demo {
 //		graph.addEdge(2 , 1);
 		graph.printAdList();
 		
-//		graph.breathFirstSearch(1);
-		graph.breathFirstSearch(1,6);
+//		graph.shortestPath(1);
+		graph.shortestPath(1,6);
 	}
 
 }
