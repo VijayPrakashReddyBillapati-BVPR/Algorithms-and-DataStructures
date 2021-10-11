@@ -1,7 +1,5 @@
 package com.datastructures.trees;
 
-import com.datastructures.trees.bst.AVLTree;
-
 public interface Trees<Key , Value> {
 	public void insert(Key key, Value value);
 	public void delete(Key key);
