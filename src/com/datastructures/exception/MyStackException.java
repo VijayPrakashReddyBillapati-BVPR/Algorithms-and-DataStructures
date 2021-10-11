@@ -1,7 +1,5 @@
 package com.datastructures.exception;
 
-import java.util.Arrays;
-
 public class MyStackException extends Exception {
 
 	/**
