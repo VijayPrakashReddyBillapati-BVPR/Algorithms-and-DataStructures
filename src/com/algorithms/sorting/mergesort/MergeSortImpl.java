@@ -49,12 +49,12 @@ public class MergeSortImpl<T extends Comparable<? super T>> implements MergeSort
 			}
 			current++;
 			
+		}
 			int remaining = mid -  left;
 			for(int i=0; i<=remaining;i++)
 			{
 				array[current+i] = helper[left+i];
 			}
-		}
 	}
 
 	private int compare(T object1, T object2, Comparator<? super T> comparator) {
